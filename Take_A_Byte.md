@@ -15,9 +15,9 @@ Knowing that pt^e(modN) = ct
 ```py
 new=[int(x) for x in s]         #s is all the ciphertexts taken as a string.
 for ct in new:
-for char in range(250):
-			if pow(char,e,N)==ct:
-				print(chr(char),end="")
+	for char in range(250):
+		if pow(char,e,N)==ct:
+			print(chr(char),end="")
 ```
 
 ##### Flag: gigem{enumerable_SeArCh_SpAcEs_4R3_WEAK_xBEEF}
